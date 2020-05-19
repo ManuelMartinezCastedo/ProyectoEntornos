@@ -29,32 +29,45 @@
         private void InitializeComponent()
         {
             this.bHola = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // bHola
             // 
-            this.bHola.Location = new System.Drawing.Point(224, 110);
+            this.bHola.Location = new System.Drawing.Point(239, 112);
             this.bHola.Name = "bHola";
             this.bHola.Size = new System.Drawing.Size(302, 229);
             this.bHola.TabIndex = 0;
             this.bHola.Text = "hola ";
             this.bHola.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(349, 58);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Hola qeapkhntrjoia";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.bHola);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.Button bHola;
+        private System.Windows.Forms.Label label1;
     }
 }
 
