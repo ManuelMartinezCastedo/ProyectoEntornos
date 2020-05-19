@@ -33,7 +33,7 @@
             // 
             // bHola
             // 
-            this.bHola.Location = new System.Drawing.Point(230, 144);
+            this.bHola.Location = new System.Drawing.Point(224, 110);
             this.bHola.Name = "bHola";
             this.bHola.Size = new System.Drawing.Size(302, 229);
             this.bHola.TabIndex = 0;
