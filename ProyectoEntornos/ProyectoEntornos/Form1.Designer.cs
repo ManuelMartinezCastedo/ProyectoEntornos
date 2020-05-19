@@ -1,6 +1,6 @@
 ﻿namespace ProyectoEntornos
 {
-    partial class Form1
+    partial class bVeigar
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,6 +30,8 @@
         {
             this.bHola = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.bV = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // bHola
@@ -50,15 +52,35 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "Hola qeapkhntrjoia";
             // 
-            // Form1
+            // bV
+            // 
+            this.bV.Location = new System.Drawing.Point(63, 160);
+            this.bV.Name = "bV";
+            this.bV.Size = new System.Drawing.Size(115, 79);
+            this.bV.TabIndex = 2;
+            this.bV.Text = "Veigar";
+            this.bV.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(713, 12);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // bVeigar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.bV);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.bHola);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "bVeigar";
+            this.Text = "veigar";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -68,6 +90,8 @@
 
         private System.Windows.Forms.Button bHola;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button bV;
+        private System.Windows.Forms.Button button1;
     }
 }
 
