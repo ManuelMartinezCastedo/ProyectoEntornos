@@ -16,5 +16,10 @@ namespace ProyectoEntornos
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            tListaSocios.Text += tNombre.Text + tApellidos.Text + tTelefono.Text + "\n";
+        }
     }
 }
